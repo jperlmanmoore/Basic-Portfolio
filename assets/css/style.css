@@ -16,7 +16,7 @@ body {
     margin-top: 35px;
     padding-bottom: 5px;
     margin-bottom: 15px;
-    height: 500px;
+    height: 800px;
 }
 
 .container {
@@ -52,7 +52,10 @@ h1 {
     text-align: center;
     background-color: #ffffff;
     float: right;
-    margin-top: 30px;
+    margin-top: 25px;
+    border-right-color: lightgrey;
+    border-right-width: 2px;
+    border-right-style: solid;
 }
 
 .contact {
@@ -62,17 +65,20 @@ h1 {
     text-align: center;
     background-color: #ffffff;
     float: right;
-    margin-top: 30px;
+    margin-top: 25px;
     }
 
 .portfolio {
     color: #777777;
-    width: 75px;
+    width: 85px;
     height: 25px;
     text-align: center;
     background-color: #ffffff;
     float: right;
-    margin-top: 30px;
+    margin-top: 25px;
+    border-right-color: lightgrey;
+    border-right-width: 2px;
+    border-right-style: solid;
     }
 
 .footer {
@@ -80,9 +86,9 @@ h1 {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0; 
-    height: 25px;
+    height: 40px;
     bottom: 0;
-    border-top: 2px solid #4aaaa5;
+    border-top: 4px solid #4aaaa5;
     clear: both;
 }
 
@@ -106,7 +112,7 @@ h2 {
 }
 
 .text {
-    line-height: 25px;
+    line-height: 30px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -115,15 +121,174 @@ a {
   text-decoration: none;  
 }
 
+.nameinput {
+    height: 30px;
+    width: 900px;
+    margin-left: 25px;
+    margin-top: -5px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.emailinput {
+    position: static;
+    margin-left: 25px;
+    width: 900px;
+    height: 30px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.messageinput {
+    position: static;
+    margin-left: 25px;
+    height: 250px;
+    width: 900px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .name {
-    height: 25px;
-    width: 300px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666666;
 }
 
 .email {
-    position: static;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.message {
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
 }
 
-.message {
-    position: static;
+.submit {
+    margin-left: 25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+
+}
+
+.hr {
+    width: 900px;
+    color: #666666;
+}
+
+.catimg {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.catbtn {
+    position: absolute;
+    top: 325px;
+    left: 35px;
+    width: 240px;
+    border: none;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.franceimg {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 150px;
+}
+
+.francebtn {
+    position: absolute;
+    top: 325px;
+    left: 315px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.lizzardimg {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.lizzardbtn {
+    position: absolute;
+    top: 325px;
+    left: 595px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.grassimg {
+    position: relative;
+    top: 110px;
+    left: 10px;
+    height: 160px;
+
+}
+
+.grassbtn {
+    position: absolute;
+    top: 590px;
+    left: 315px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.fisheyeimg {
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
+
+.fisheyebtn {
+    position: absolute;
+    top: 590px;
+    left: 595px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.sunflowerimg {
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
+
+.sunflowerbtn {
+    position: absolute;
+    top: 590px;
+    left: 35px;
+    width: 240px;
+    height: 25px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
