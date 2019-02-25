@@ -1,18 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-image: url(../images/background.png);
     width: 906px;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    background-image: url(../images/background.png);
     }
 
-#wtbkg{
-    margin-left: 25%;
-    margin-right: 25%;
+.wtbkg {
     background: #ffffff;
 }
 
@@ -66,6 +64,7 @@ h1 {
     background-color: #666666;
     position: -webkit-sticky;
     position: sticky;
+    bottom: 0; 
     height: 15px;
     bottom: 0;
     padding: 5px;
@@ -84,7 +83,6 @@ img {
 h2 {
     color: #4aaaa5;
     clear: both;
-    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 50px;
     width: 150x;
@@ -94,6 +92,7 @@ h2 {
 }
 
 .text {
+    line-height: 25px;
 }
 
 a {
