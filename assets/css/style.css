@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-image: url(../images/background.png);
+    width: 906px;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
 .about {
     float: left;
     color: #777777;
-    width: 100px;
+    width: 75px;
     height: 25px;
     padding: 25px;
     margin: 25px;
@@ -36,7 +37,7 @@ h1 {
 .contact {
     float: left;
     color: #777777;
-    width: 100px;
+    width: 75px;
     height: 25px;
     padding: 25px;
     margin: 25px;
@@ -47,7 +48,7 @@ h1 {
 .portfolio {
     float: left;
     color: #777777;
-    width: 100px;
+    width: 75px;
     height: 25px;
     padding: 25px;
     margin: 25px;
@@ -70,9 +71,10 @@ img {
     clear: both;
     float: left;
     border-radius: 8px;
-    max-width: 20%;
+    max-width: 25%;
     padding: 20px;
     height: auto; 
+    margin-left: 45px;
 }
 
 h2 {
@@ -83,12 +85,13 @@ h2 {
     height: 50px;
     width: 150x;
     padding: 25px;
-    margin: 25px;
+    margin-left: 45px;
     text-align: left;
 }
 
 .text {
     padding-left: 25px;
+    float: left;
 }
 
 a {
