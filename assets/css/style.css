@@ -1,13 +1,19 @@
-html {
-    display: table;
-    margin: 10px;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-image: url(../images/background.png);
     width: 906px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    }
+
+#wtbkg{
+    margin-left: 25%;
+    margin-right: 25%;
+    background: #ffffff;
 }
 
 h1 {
@@ -68,13 +74,11 @@ h1 {
 }
 
 img {
-    clear: both;
     float: left;
-    border-radius: 8px;
     max-width: 25%;
-    padding: 20px;
     height: auto; 
     margin-left: 45px;
+    padding: 15px;
 }
 
 h2 {
@@ -90,8 +94,6 @@ h2 {
 }
 
 .text {
-    padding-left: 25px;
-    float: left;
 }
 
 a {
