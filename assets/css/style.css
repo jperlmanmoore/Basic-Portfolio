@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    width: 906px;
+    width: 960px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,12 +10,13 @@ body {
     background-image: url(../images/background.png);
     }
 
-.wtbkg {
+.container2 {
     background: #ffffff;
     width: 960px;
     margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    height: 500px;
 }
 
 .container {
@@ -34,41 +35,44 @@ header {
     height: 25px;
     padding: 25px;
     text-align: center; 
+    float: left;
 }
 
 h1 {
     color: #4aaaa5;
     margin-left: 25px;
+    padding-top: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 .about {
     color: #777777;
     width: 75px;
     height: 25px;
-    padding: 25px;
-    margin: 25px;
     text-align: center;
     background-color: #ffffff;
+    float: right;
+    margin-top: 30px;
 }
 
 .contact {
     color: #777777;
     width: 75px;
     height: 25px;
-    padding: 25px;
-    margin: 25px;
     text-align: center;
     background-color: #ffffff;
+    float: right;
+    margin-top: 30px;
     }
 
 .portfolio {
     color: #777777;
     width: 75px;
     height: 25px;
-    padding: 25px;
-    margin: 25px;
     text-align: center;
     background-color: #ffffff;
+    float: right;
+    margin-top: 30px;
     }
 
 .footer {
@@ -76,10 +80,8 @@ h1 {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0; 
-    height: 15px;
-    width: 100%;
+    height: 25px;
     bottom: 0;
-    padding: 5px;
     border-top: 2px solid #4aaaa5;
     clear: both;
 }
@@ -111,4 +113,17 @@ h2 {
 
 a {
   text-decoration: none;  
+}
+
+.name {
+    height: 25px;
+    width: 300px;
+}
+
+.email {
+    position: static;
+}
+
+.message {
+    position: static;
 }
