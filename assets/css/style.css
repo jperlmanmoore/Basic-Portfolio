@@ -7,8 +7,18 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    background-image: url(../images/background.png);
     }
+
+.backgroundimg {
+    background-image: url(../images/background.png);
+    background-repeat: space;
+    width: 2000px;
+    min-height: 100%;
+    position: fixed;
+    top: 75px;
+    left: -500px;
+    z-index: -1;
+}
 
 .container2 {
     background: #ffffff;
@@ -17,6 +27,7 @@ body {
     padding-bottom: 5px;
     margin-bottom: 15px;
     height: 800px;
+    z-index: 1;
 }
 
 .container {
@@ -88,7 +99,7 @@ h1 {
     bottom: 0; 
     height: 40px;
     bottom: 0;
-    border-top: 4px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     clear: both;
 }
 
