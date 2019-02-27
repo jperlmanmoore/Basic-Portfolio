@@ -65,6 +65,10 @@ h1 {
     border-right-style: solid;
 }
 
+#about:visited {
+    color: #B2592A;
+}
+
 #contact {
     color: #777777;
     width: 75px;
@@ -74,6 +78,10 @@ h1 {
     float: right;
     margin-top: 35px;
     }
+
+#contact:visited {
+    color: #B2592A;
+}
 
 #portfolio {
     color: #777777;
@@ -87,6 +95,10 @@ h1 {
     border-right-width: 2px;
     border-right-style: solid;
     }
+
+#portfolio:visited {
+    color:#B2592A;
+}
 
 #footer {
     background-color: #666666;
@@ -175,10 +187,9 @@ a {
     background-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    width: 200px;
+    width: 100px;
     height: 35px;
     border: none;
-    line-height: 25px;
 }
 
 .hr {
@@ -217,6 +228,13 @@ a {
     left: 25px;
 }
 
+#item-a:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
+}
+
 #item-b {
     width: 25%;
     height: auto;
@@ -236,6 +254,13 @@ a {
     position: absolute;
     top: 145px;
     left: 315px;
+}
+
+#item-b:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
 }
 
 #container4 {
@@ -269,6 +294,12 @@ a {
     left: 25px;
 }
 
+#item-c:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
+}
 #item-d {
     width: 25%;
     height: auto;
@@ -287,6 +318,13 @@ a {
     position: absolute;
     top: 145px;
     left: 315px;
+}
+
+#item-d:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
 }
 
 #container5 {
@@ -320,10 +358,24 @@ a {
     left: 25px;
 }
 
+#item-e:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
+}
+
 #item-f {
     width: 25%;
     height: auto;
     float: left;
+}
+
+#item-f:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;    
 }
 
 #fisheyelbl {
